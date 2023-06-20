@@ -29,7 +29,7 @@ int main() {
     for (;n <= m && m <= INT_MAX; n++) {
         sum = sum + n;
     }
-    std::cout << "Sum of " << number1 << " and " << number2 << " is " << sum << std::endl;
+    std::cout << "Sum of " << number1 << " to " << number2 << " is " << sum << std::endl;
 
     return 0;
 }
