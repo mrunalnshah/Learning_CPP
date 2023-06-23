@@ -1,6 +1,6 @@
 /*
  * DESC :
- * Exercise Section 2.1.2
+ * Exercise Section 2.1.3
  * Exercise : 2.3	
  *
  * Question : What output will the following code produce?
