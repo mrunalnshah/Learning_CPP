@@ -47,7 +47,7 @@ int main() {
     long double ld = 3.1415926536;
     int a{ld}, b{ld}; // error : narrowing conversion required
     int c(ld), d = ld; // ok : but value will be truncated
-    /*
+	/*
     The compiler rejects the initializations of a and b because using a long double to
     initialize an int is likely to lose data. At a minimum, the fractional part of ld will be
     truncated. In addition, the integer part in ld might be too large to fit in an int
